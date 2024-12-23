@@ -19,9 +19,13 @@ npm start
 
 ## Installation
 
-MongoDB
-Mongoose
-MongoDB Compass
+npm i css-loader
+npm install --save-dev html-webpack-plugin
+A service worker is first registered using the ServiceWorkerContainer.register() method. Service workers are specialized JavaScript assets that act as proxies between web browsers and web servers. If successful, your service worker will be downloaded to the client and attempt installation/activation (Download, install and activate) for URLs accessed by the user inside the whole origin, or a subset specified by you.
+npm i concurrently
+npm i idb
+The manifest.json file is the only file that every extension using WebExtension APIs must contain
+npm i webpack-pwa-manifest
 
 ## License
 
