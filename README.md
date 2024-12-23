@@ -10,7 +10,7 @@ This Progressive Web Application (PWA) is an editor that runs in the browser at 
 
 ## Usage
 
-This text editor can be used with or without an internet connection so you can use it conveniently and reliably retrieve the data for future use. It is amazing when I start the application in editor where I can see a client and server folder structure. During the development stage, "npm run start:build" can be used. To run the application by using the command: "npm start" or "npm run start" in the terminal, the application should start up the backend and serve the client. when I run the application in the terminal, the JavaScript files have been bundled using webpack. When run webpack plugins, the HTML, service worker, and a manifest file have generated form. When next-gen JavaScript is used in the application, the text editor still functions in the browser without errors. When text-editor is opened, the Indexed DB has immediately created a database storage. I enter content and subsequently click off of the DOM window, the content in the text editor has been saved with IndexedDB. When I reopen the text editor after closing it, the content in the text editor has been retrieved from Indexed DB. When I click on the install button, I download my web application as an icon on my desktop. When I load my web application, and then I should have a registered service worker using workbox. WHEN I register a service worker, then I should have my static assets pre cached upon loading along with subsequent pages and static assets. When I deploy to render, I should have proper build scripts for a webpack application.
+This text editor can be used with or without an internet connection so you can use it conveniently and reliably retrieve the data for future use. It is amazing when I start the application in editor where I can see a client and server folder structure. To run the application by using the command: "npm start" or "npm run start" in the terminal, the application should start up the backend and serve the client. when I run the application in the terminal, the JavaScript files have been bundled using webpack. When run webpack plugins, the HTML, service worker, and a manifest file have generated. When next-gen JavaScript is used in the application, the text editor still functions in the browser without errors. When text-editor is opened, the Indexed DB has immediately created a database storage. I enter content and subsequently click off of the DOM window, the content in the text editor has been saved with IndexedDB. When I reopen the text editor after closing it, the content in the text editor has been retrieved from Indexed DB. When I click on the install button, I download my web application as an icon on my desktop. When I load my web application, and then I should have a registered service worker using workbox. WHEN I register a service worker, then I should have my static assets pre cached upon loading along with subsequent pages and static assets. When I deploy to render, I should have proper build scripts for a webpack application.
 
 To run project
 ```bash
@@ -19,12 +19,14 @@ npm start
 
 ## Installation
 
-npm i css-loader
+The generation of the files are in the code. The followings are for reference.
+
 npm install --save-dev html-webpack-plugin
-A service worker is first registered using the ServiceWorkerContainer.register() method. Service workers are specialized JavaScript assets that act as proxies between web browsers and web servers. If successful, your service worker will be downloaded to the client and attempt installation/activation (Download, install and activate) for URLs accessed by the user inside the whole origin, or a subset specified by you.
+When run webpack plugins, the HTML, service worker, and a manifest file have generated.  
+npm i css-loader
 npm i concurrently
 npm i idb
-The manifest.json file is the only file that every extension using WebExtension APIs must contain
+The manifest.json file is the only file that every extension using WebExtension APIs must contain.
 npm i webpack-pwa-manifest
 
 ## License
