@@ -19,7 +19,7 @@ npm start
 
 ## Installation
 
-The generation of the files are in the code. The followings are for reference.
+The generation of the files is in the code. The following are for reference.
 
 npm install --save-dev html-webpack-plugin
 When run webpack plugins, the HTML, service worker, and a manifest file have generated.  
